@@ -13,12 +13,12 @@ public class TestAbstractFactory {
     public void test(){
         EFactory haierFactorty=new HaierFactory();
         haierFactorty.produceAirCondition().changeTemperature();
-        haierFactorty.produceTelevison().paly();
+        haierFactorty.produceTelevison().play();
 
 
         EFactory tclFactory=new TCLFactory();
         tclFactory.produceAirCondition().changeTemperature();
-        tclFactory.produceTelevison().paly();
+        tclFactory.produceTelevison().play();
     }
 
 }

@@ -1,5 +1,5 @@
 package com.Draymond.Factory.AbstractFactory;
 
 public interface Televison {
-    public abstract void paly();
+    public abstract void play();
 }
