@@ -58,3 +58,19 @@
   - 类的适配器模式
   - 对象的适配器模式
   - 接口的适配器模式
+  
+五、装饰模式
+- 核心作用：
+  - 动态地给一个对象添加额外的功能，比继承灵活 
+- 应用场景：
+  - IO中输入流和输出流的设计 
+  - Swing包中图形界面构件功能 
+  - Servlet API 中提供了一个request对象的Decorator设计模式的默认实 现类HttpServletRequestWrapper，HttpServletRequestWrapper 类，增强了request对象的功能。 
+  - Struts2中，request，response,session对象的处理
+六、代理模式
+- 核心作用：
+  - 通过代理，控制对对象的访问！ 可以详细控制访问某个（某类）对象的方法，在调用这个方法前做前置处理，调用这个方法后 做后置处理。
+- 应用场景：
+  - JDK动态代理
+  - CGLIB动态代理
+  - Spring的AOP

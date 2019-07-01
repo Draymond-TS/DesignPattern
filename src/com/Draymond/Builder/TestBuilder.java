@@ -12,7 +12,10 @@ public class TestBuilder {
     public void test(){
          SubMealBuilderA subMealBuilderA=new SubMealBuilderA();
         Director director=new Director( subMealBuilderA);
-         director.construct();
+        Meal meal = director.construct();
+
+        System.out.println("What Food"+meal.getFood());
+        System.out.println("What Drink"+meal.getDrink());
     }
 
 }
