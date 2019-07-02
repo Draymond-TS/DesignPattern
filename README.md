@@ -67,6 +67,7 @@
   - Swing包中图形界面构件功能 
   - Servlet API 中提供了一个request对象的Decorator设计模式的默认实 现类HttpServletRequestWrapper，HttpServletRequestWrapper 类，增强了request对象的功能。 
   - Struts2中，request，response,session对象的处理
+  
 六、代理模式
 - 核心作用：
   - 通过代理，控制对对象的访问！ 可以详细控制访问某个（某类）对象的方法，在调用这个方法前做前置处理，调用这个方法后 做后置处理。
@@ -74,3 +75,19 @@
   - JDK动态代理
   - CGLIB动态代理
   - Spring的AOP
+  
+七、策略模式
+- 核心作用：
+  - 分离算法，选择实现。
+- 应用场景：
+  - JAVASE中GUI编程中，布局管理 
+  - Spring框架中，Resource接口，资源访问策略 
+  - javax.servlet.http.HttpServlet#service()
+
+八、观察者模式  
+- 核心作用：
+  - 主要用于1：N的通知。当一个对象(目标对象Subject或Objservable)的状态变化时，他需要及时通知一系列对象(观察者对象，Observe)，令他们做出响应
+- 应用场景：
+  - 京东商城中，群发某商品打折信息
+  - Servlet中，监听器的实现 
+  - 邮件订阅 
